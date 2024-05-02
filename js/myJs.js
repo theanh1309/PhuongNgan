@@ -15,7 +15,7 @@ function firstQuestion(){
     $('.content').hide();
     Swal.fire({
         title: 'Hé lu em iu của anhh',
-        text: 'Anh có điều này muốn hỏi em nhớ phải trả lời thật lòng nhaaa.',
+        text: 'Trangg ơi, Trang đừng giận Thế Anh nữaaaaa',
         imageUrl: 'img/cuteCat.jpg',
         // imageWidth: 300,
         imageHeight: 300,
@@ -96,7 +96,7 @@ $('#yes').click(function() {
     var audio = new Audio('sound/30_06_21_12_29_38.mp3');
     audio.play();
     Swal.fire({
-        title: 'Nói cho anh lí do em thích anh đi :vvvv',
+        title: 'hãy gửi một số điều để anhhh nhá :vvvv',
         html: true,
         width: 900,
         padding: '3em',
@@ -109,7 +109,7 @@ $('#yes').click(function() {
               no-repeat
             `,
         showCancelButton: true,
-        cancelButtonText: "Thôi ngại lém :<<",
+        cancelButtonText: "Thôi không gửi nữa :() :<<",
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
         confirmButtonColor: '#fe8a71',
@@ -121,11 +121,11 @@ $('#yes').click(function() {
                 width: 900,
                 confirmButtonText: 'Okiiiii lun <3',
                 background: '#fff url("img/iput-bg.jpg")',
-                title: 'Anh không hứa nhưng anh sẽ cố gắng không để em buồn đâuu',
+                title: 'Anh sẽ cố gắng không để em buồn đâuu, bỏ chặn anh đi nàoo',
                 text: "Anh yêu em nhiều lắmm",
                 confirmButtonColor: '#83d0c9',
                 onClose: () => {
-                    window.location = 'https://www.facebook.com/phuong.nguyencong.9256?mibextid=LQQJ4d';
+                    window.location = 'https://www.facebook.com/profile.php?id=100088593110614';
                   }
             })
         }
